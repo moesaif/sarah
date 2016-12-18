@@ -59,6 +59,8 @@ displays the tempreature and weather information of Khartoum City <br /><br />
 
 # Installation
 Get all dependencies to run `Sarah` by executing <br />
+=======
+  
 <code> $ sudo apt-get install python-pip </code> <br />
 <code> $ pip install -r requirements.txt </code>
 
@@ -68,15 +70,3 @@ Enjoy your friendship with Sarah <br /><br />
 <b>Made with love in Sudan &hearts; </b><br /><br />
 
 SemiCode OS Core Team<br />
-
-
-
-
-
-
-
-
-
-
-
-
