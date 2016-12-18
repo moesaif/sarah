@@ -58,7 +58,7 @@ displays the tempreature and weather information of Khartoum City <br /><br />
 
 
 # Installation
-Get all dependcies to run `Sarah` by executing <br />
+Get all dependencies to run `Sarah` by executing <br />
 <code> $ sudo apt-get install python-pip </code> <br />
 <code> $ pip install -r requirements.txt </code>
 
