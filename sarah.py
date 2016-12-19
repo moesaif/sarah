@@ -193,32 +193,32 @@ elif (fc.lower() == "first"):
 	if (sys.argv[2] == "python"):
 		with io.FileIO("first.py", "w") as file:
 			file.write("print(\"Hello World!\")")
-    			print(".py File Created Successfully , Check your Current Path")
+			print(".py File Created Successfully , Check your Current Path")
 	elif(sys.argv[2] == "java"):
 		with io.FileIO("first.java", "w") as file:
 			file.write("public class first {\npublic static void main (String []args){\nSystem.out.println(\"Hello World!\");\n}")
-    			print(".java File Created Successfully , Check your Current Path")
+			print(".java File Created Successfully , Check your Current Path")
 	elif(sys.argv[2] == "bash"):
 		with io.FileIO("first.sh", "w") as file:
 			file.write("#!/bin/sh\necho \"Hello World\"")
-    			print(".sh File Created Successfully , Check your Current Path")
+			print(".sh File Created Successfully , Check your Current Path")
 	elif(sys.argv[2] == "c"):
 		with io.FileIO("first.c", "w") as file:
 			file.write("#include <stdio.h>\nint main(void){\nprintf(\"Hello, world\");\n}")
-    			print(".c File Created Successfully , Check your Current Path")
+			print(".c File Created Successfully , Check your Current Path")
 	elif(sys.argv[2] == "html"):
 		with io.FileIO("first.html", "w") as file:
 			file.write("<html><head><title>My First Page</title></head><body>Hello World</body></html>")
-    			print(".html File Created Successfully , Check your Current Path")
+			print(".html File Created Successfully , Check your Current Path")
 	elif(sys.argv[2] == "php"):
 		with io.FileIO("first.php", "w") as file:
 			file.write("<?php echo \"Hello World !!\"?>")
 			os.system("sudo mv /home/$USERNAME/Project_stuffs/Sarah/first.php /var/www/html/first.php");
-    			print(".php File Created Successfully , Navigate to http://localhost/first.php to See The Result")
+			print(".php File Created Successfully , Navigate to http://localhost/first.php to See The Result")
 	elif(sys.argv[2] == "c#"):
 		with io.FileIO("first.cs", "w") as file:
 			file.write("class First {\n static void main () {\nSystem.Console.Write(\"Hello World\");\n}")
-    			print(".cs File Created Successfully , Check your Current Path")
+			print(".cs File Created Successfully , Check your Current Path")
 elif (fc == "run".lower()):
 	os.system(sys.argv[2])
 elif (fc.lower() == "weather"):
@@ -239,7 +239,7 @@ elif (fc.lower() == "how"):
 				if (sys.argv[5] == "in"):
 					utf8_text=open(sys.argv[6],'r+').read()
 					unicode_data = utf8_text.decode('utf8')
-					print len(unicode_data)
+					print(len(unicode_data))
 elif (fc.lower() == "help"):
 	print("* Available Commands For Sarah : \n 1- Greeting \n 2- youtube \n 3- google \n 4- twitter \n 5- time \n 6- download \n 7- grab \n 8- about \n 9- sc \n 10- nzli (to download youtube videos) \n 11- imdb \n 12- translate \n 13- speedtest \n 14- first \n")
 else :
