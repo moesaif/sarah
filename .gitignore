@@ -2,3 +2,4 @@ bin
 *.so
 *.pyc
 hello.vapi
+.idea/
