@@ -1,0 +1,44 @@
+# Git files
+.git
+.gitignore
+
+# Build artifacts
+bin/
+*.so
+*.vapi
+*.h
+*.gir
+*.typelib
+sarah
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+*.md
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Snap packaging
+snapcraft.yaml
+snap/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Logs
+*.log 

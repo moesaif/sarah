@@ -1,0 +1,5 @@
+[Plugin]
+Module=ai_agent
+Loader=python3
+Name=ai_agent
+Description=AI-powered natural language understanding for Sarah 

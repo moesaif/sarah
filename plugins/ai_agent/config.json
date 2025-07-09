@@ -1,0 +1,49 @@
+{
+  "ai_core": {
+    "spacy_model": "en_core_web_sm",
+    "sentence_model": "all-MiniLM-L6-v2",
+    "confidence_threshold": 0.6,
+    "max_suggestions": 3,
+    "enable_fallback": true,
+    "enable_learning": true
+  },
+  "conversation": {
+    "enable_conversation": true,
+    "max_context_turns": 10,
+    "session_timeout_minutes": 30,
+    "save_history": true,
+    "history_file": "~/.sarah/conversation_history.json"
+  },
+  "plugins": {
+    "execution_timeout": 30,
+    "enable_subprocess": true,
+    "verbose_output": true,
+    "show_confidence": true
+  },
+  "ui": {
+    "use_emojis": true,
+    "colored_output": true,
+    "show_suggestions": true,
+    "interactive_mode": false
+  },
+  "advanced": {
+    "log_level": "INFO",
+    "cache_embeddings": true,
+    "model_cache_dir": "~/.sarah/models",
+    "enable_voice": false,
+    "voice_engine": "pyttsx3"
+  },
+  "openai": {
+    "enabled": false,
+    "api_key": "",
+    "model": "gpt-3.5-turbo",
+    "max_tokens": 150,
+    "temperature": 0.7,
+    "use_for_fallback": false
+  },
+  "custom_plugins": {
+    "load_custom": true,
+    "custom_plugins_dir": "~/.sarah/custom_plugins",
+    "auto_discover": true
+  }
+} 

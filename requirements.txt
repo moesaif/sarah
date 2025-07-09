@@ -1,6 +1,29 @@
 requests
-BeautifulSoup
-bs4
+BeautifulSoup4
 translate
 omdb
 wikipedia
+
+# AI and Natural Language Processing
+openai
+transformers
+torch
+spacy
+scikit-learn
+nltk
+sentence-transformers
+langchain
+langchain-openai
+
+# Enhanced text processing
+textblob
+fuzzywuzzy
+python-levenshtein
+
+# Conversation and context management
+redis
+python-dotenv
+
+# Voice capabilities (optional)
+SpeechRecognition
+pyttsx3

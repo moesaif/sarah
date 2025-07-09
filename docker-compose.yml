@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  sarah:
+    build: .
+    image: sarah:latest
+    container_name: sarah-assistant
+    stdin_open: true
+    tty: true
+    networks:
+      - sarah-network
+    # Mount a volume if you want to persist any data or configurations
+    # volumes:
+    #   - ./data:/app/data
+
+    # Example: Run Sarah with a specific command
+    # command: ["sarah", "list"]
+
+networks:
+  sarah-network:
+    driver: bridge
